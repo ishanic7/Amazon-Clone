@@ -1,0 +1,8 @@
+"server": {
+    "builder": "@angular-devkit/build-angular:server",
+      "options": {
+        "outputPath": "dist/angprod/server",
+        "main": "server.ts",
+        "tsConfig": "tsconfig.server.json",
+        "externalDependencies": ["@firebase/firestore"]
+    }
